@@ -1,4 +1,4 @@
-matlab_isdata_integer
+isdata_integer
 ===============
 
 `isdata_integer` returns true for integers false otherwise. Checks value not type.
