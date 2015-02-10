@@ -3,12 +3,8 @@ isdata_integer
 
 `isdata_integer` returns true for integers false otherwise. Checks value not type.
 
-Usage
+Example
 --
-
-Add function to your path, then just call isdata_integer.
-
-    addpath('your_path_here/matlab_isdata_integer/function/');
 
     isdata_integer( 2 )
     ans =
@@ -17,4 +13,18 @@ Add function to your path, then just call isdata_integer.
     isdata_integer( 2.5 )
     ans = 
        0
+       
+
+Installation
+--
+
+To get library clone from github:
+
+    cd to your lib folder
+    git clone https://github.com/Matlab-Toolbox/isdata_integer.git
+
+Add package to path:
+
+    %% Add package to path
+    run(['/path_to_package/isdata_integer/load_toolbox.m']);
 
